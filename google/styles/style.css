@@ -2,23 +2,88 @@ html {
 	font-family: "Arial";
 }
 
+img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:300px;
+}
+
+a:link{
+	font-family: "Arial";
+	text-decoration:none;
+	color:#DS8B8B8;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
 #main {
+	margin:180px 0 0 0;
 	text-align:center;
 	font-size: 60px;
 	padding: 20px;
 	color: #E00000
 }
 
+#top-left{
+	margin:20px;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+#top-right{
+	margin:20px;
+	position:fixed;
+	top:0;
+	right:0;
+}
+
+.link{
+	font-size:13px;
+	padding:6px;
+}
+
 .search-bar {
 	padding: 2px;
 	overflow: hidden;
-	height: 20px;
-	width: 500px;
+	height: 35px;
+	width: 600px;
+	border:solid;
+	border-width:1px;
+	border-color:#D1D1D1;
+	border-radius:20px;
+	background-color:transparent;
 }
+
+.search-bar:hover{
+	border-color:#A9A9A9;
+}
+
 .search-buttons {
-	font-size: 16px;
+	font-size: 14px;
 	color: #2E2E2E;
 	width: 150px;
-	height: 30px;
-	/*padding: 5px 15px 5px 15px;*/
+	height: 35px;
+	border-radius:2px;
+	border:none;
+	color: #DS8B8B8;
+}
+
+.search-buttons:hover{
+	cursor:pointer;
+	border:solid;
+	border-width:1px;
+	border-color:#A9A9A9;
+}
+
+.sign-in{
+	/*font-size:12px;*/
+	font-weight:bold;
+	border-radius:3px;
+	color:#FFFFFF;
+	padding:7px 12px 7px 12px;
+	background-color:#3F72F1;
 }
