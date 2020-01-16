@@ -1,0 +1,75 @@
+html {
+	font-family:"Arial";
+}
+
+.column {
+	float: left;
+	padding:0 0 0 100px;
+	width:30%;
+}
+.row:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+a:link{
+	text-decoration:none;
+	color:blue;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a:visited{
+	color:blue;
+}
+
+.result{
+	margin:20px;
+}
+
+#result-link{
+	font-size:20px;
+}
+
+#result-description{
+	font-size:12px;
+}
+
+.company-description{
+	width:400px;
+	margin:5px;
+	padding:0px;
+	border:solid;
+	border-width:1px;
+	border-radius:10px;
+	border-color:gray;
+}
+
+#company-title{
+	padding:10px;
+	border-bottom:solid;
+	border-color:gray;
+	border-width:1px;
+}
+
+#company-website{
+	padding:10px;
+	border-bottom:solid;
+	border-color:gray;
+	border-width:1px;
+}
+
+#company-description {
+	font-size:15px;
+	padding:10px;
+	border-color:gray;
+	border-width:1px;
+}
+
+#company-info{
+	font-size:13px;
+	padding:5px 0 5px 0;
+}
