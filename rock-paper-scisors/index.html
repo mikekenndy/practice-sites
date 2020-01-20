@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+	<link href="styles/style.css" rel="stylesheet">
+	<script src="scripts/rockpaperscissors.js"></script>
+	<meta charset="UTF-8"/>
+</head>
+
+<body>
+<div id="user-panel">
+	<h1>Make your selection</h1>
+	<img class="rock" src="images/rock.png" alt="rock" onclick="pickRock()">
+	<img class="paper" src="images/paper.png" alt="paper" onclick="pickPaper()">
+	<img class="scissors" src="images/scissors.png" alt="scissors" onclick="pickScissors()">
+</div>
+
+<div id="computer">
+	<h1>Computer selection</h1>
+	<img id="computer-pick" class="question-mark" src="images/question-mark.png" alt="unknown">
+</div>
+
+<div id="result">
+	<h1>Result:</h1>
+	<h1 id="response"></h1>
+</div>
+
+</body>
+</html>

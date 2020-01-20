@@ -1,0 +1,66 @@
+html {
+	font-family: "Arial";
+}
+
+#user-panel {
+	border:solid;
+	border-width:2px;
+	border-radius:10px;
+	padding:20px;
+	margin:15px;
+	position:fixed;
+}
+
+.rock {
+	padding:3px;
+}
+
+.rock:hover {
+	border-radius:10px;
+	box-shadow: 3px 3px 3px 3px #C0C0C0;
+}
+
+.paper {
+	padding:3px;
+}
+
+.paper:hover {
+	border-radius:10px;
+	box-shadow: 3px 3px 3px 3px #C0C0C0;
+}
+
+.scissors {
+	padding:3px;
+}
+
+.scissors:hover {
+	border-radius:10px;
+	box-shadow: 3px 3px 3px 3px #C0C0C0;
+}
+
+
+#computer {
+	text-align:center;
+	border:solid;
+	border-width:2px;
+	border-radius:10px;
+	padding:20px 20px 45px 20px;
+	margin:15px;
+	position:fixed;
+	left:500px;
+}
+
+.question-mark{
+	height:200px;
+}
+
+
+#result {
+	position:fixed;
+	left:50px;
+	top:400px;
+	margin:0px 0px 0px 0px;
+}
+
+#response {	
+}
