@@ -1,8 +1,10 @@
 html {
 	font-family: "Arial";
+	background-color:#17C7DC;
 }
 
 #user-panel {
+	background-color:#FFFFFF;
 	border:solid;
 	border-width:2px;
 	border-radius:10px;
@@ -41,6 +43,7 @@ html {
 
 #computer {
 	text-align:center;
+	background-color:#FFFFFF;
 	border:solid;
 	border-width:2px;
 	border-radius:10px;
@@ -56,11 +59,14 @@ html {
 
 
 #result {
+	background-color:#FFFFFF;
+	margin:15px;
+	padding:15px;
+	height:150px;
+	width:800px;
+	border:solid;
+	border-width:2px;
+	border-radius:10px;
 	position:fixed;
-	left:50px;
 	top:400px;
-	margin:0px 0px 0px 0px;
-}
-
-#response {	
 }
