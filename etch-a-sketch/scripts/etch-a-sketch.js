@@ -13,10 +13,7 @@ for (var i = 0; i < BOX_SIZE; i++)
 	{
 		const square = document.createElement('div');
 		
-		var css = "#square" + i + j + ":hover{border:2px solid #000000}";
-		square.style.cssText = css;
-		
-		square.setAttribute('id', id + i + j);
+		square.setAttribute('id', id + i + "-" + j);
 		square.style.height = "10px";
 		square.style.width = "10px";
 		square.style.border = "1px solid #000000";
@@ -31,3 +28,17 @@ for (var i = 0; i < BOX_SIZE; i++)
 }
 
 console.log(board);
+
+function clearScreen()
+{
+	for (var i = 0; i < BOX_SIZE; i++)
+	{
+		for (var j = 0; j < BOX_SIZE; j++)
+		{
+			var id = "#square" + i + "-" + j;
+			console.log(id);
+			const square = document.querySelector(id);
+			square.style.backgroundColor="#FFFFFF";
+		}
+	}
+}
