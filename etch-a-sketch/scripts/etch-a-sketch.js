@@ -1,4 +1,4 @@
-var BOX_SIZE = 64;
+var BOX_SIZE = 100;
 
 // Setup board for etch-a-sketch
 const board = document.querySelector('.board');
@@ -14,8 +14,8 @@ for (var i = 0; i < BOX_SIZE; i++)
 		const square = document.createElement('div');
 		
 		square.setAttribute('id', id + i + "-" + j);
-		square.style.height = "10px";
-		square.style.width = "10px";
+		square.style.height = "6px";
+		square.style.width = "6px";
 		square.style.border = "1px solid #000000";
 		
 		square.addEventListener('mouseover', function(){
