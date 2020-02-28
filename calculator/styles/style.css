@@ -1,0 +1,22 @@
+.calculator {
+	width:250px;
+}
+
+.numpad {
+	padding:5px;
+	display: grid;
+	grid-template-columns: 25px 25px 25px;
+	grid-gap: 10px;
+}
+
+
+
+#display {
+	color:#B8B8B8;
+	padding:10px;
+	margin:4px 0 4px 0;
+	border-style:solid;
+	border-color:#000000;
+	border-width:1px;
+	border-radius: 8px;
+}
