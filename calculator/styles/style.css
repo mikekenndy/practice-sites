@@ -1,15 +1,56 @@
+.button
+{
+	font-size:50px;
+}
+
 .calculator {
-	width:250px;
+	width:300px;
+}
+
+.keypad {
+	
 }
 
 .numpad {
-	padding:5px;
+	width:35%;
+	float:left;
+	padding:10px;
 	display: grid;
 	grid-template-columns: 25px 25px 25px;
 	grid-gap: 10px;
+	box-shadow: 2px 2px 8px #000000;
+	border-radius: 5px;
 }
 
+.operators {
+	float:left;
+	width:10%;
+	margin: 0 0 0 10px;
+	position:static;
+	padding:10px;
+	display:grid;
+	grid-template-columns:25px;
+	grid-gap:10px;
+	box-shadow: 2px 2px 8px #000000;
+	border-radius: 5px;
+}
 
+.actions {
+	float:left;
+	position: static;
+	margin: 0 0 0 10px;
+	width: 25%;
+	padding:10px;
+	display:grid;
+	grid-template-columns:25px;
+	grid-gap:10px;
+	box-shadow: 2px 2px 8px #000000;
+	border-radius: 5px;
+}
+
+#equal {
+	width=100%;
+}
 
 #display {
 	color:#B8B8B8;
